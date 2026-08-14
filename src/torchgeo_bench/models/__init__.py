@@ -16,6 +16,7 @@ from .terratorch_models import (
 from .timm import TimmPatchBenchModel
 from .torchgeo_models import (
     TorchGeoCromaBench,
+    TorchGeoDEOBench,
     TorchGeoDOFABench,
     TorchGeoEarthLocBench,
     TorchGeoPanopticonBench,
@@ -34,6 +35,7 @@ __all__: list[str] = [
     "OlmoEarthBenchModel",
     "SAM3Encoder",
     "TorchGeoCromaBench",
+    "TorchGeoDEOBench",
     "TorchGeoDOFABench",
     "TorchGeoEarthLocBench",
     "TorchGeoPanopticonBench",
